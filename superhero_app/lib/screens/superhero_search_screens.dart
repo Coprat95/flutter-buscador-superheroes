@@ -19,10 +19,12 @@ class _SuperheroSearchScreensState extends State<SuperheroSearchScreens> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Superhero Search')),
+      appBar: AppBar(title: Text('Superhero Search'),
+      backgroundColor: const Color(0xFFC87AD8),),
       body: Column(
         children: [
           Padding(
+            
             padding: const EdgeInsets.all(8.0),
             child: TextField(
               decoration: InputDecoration(
